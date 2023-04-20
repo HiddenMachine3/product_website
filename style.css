@@ -1,0 +1,203 @@
+nav {
+
+    overflow: hidden;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 36px;
+    text-decoration: none;
+    font-size: large;
+    transition: background-color 1s ease;
+}
+
+nav li a:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    color: white;
+}
+
+.container img {
+    width: 62%;
+    height: auto;
+}
+
+.container h2 {
+    width: 38%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.main-heading {
+    font-size: 500%;
+}
+
+.bgfillmain {
+    background-image: url("data/images/movingliquid.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.formPanel {
+    background-color: rgb(43, 38, 38);
+    opacity: 98%;
+    color: white;
+    width:65%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+#myiframe {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.keyboardtable {
+    border-collapse: collapse;
+    margin: auto;
+    background-color: black;
+}
+
+
+.keyboardtable th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+    color: white;
+}
+
+.keyboardtable td {
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    border: 1px solid #333;
+    color: white;
+}
+
+.keyboardtable td:hover {
+    background-color: #333;
+}
+
+.keyboardtable img {
+    width: 200px;
+
+    height: 150px;
+
+}
+
+
+
+
+.splitpanel{
+    display: flex;
+}
+
+.formPanel table input[type="number"] {
+    width: 35%;
+    height: 75%;
+}
+
+.formPanel input[type="submit"] {
+    background-color: black;
+    transition: background-color 0.5s ease;
+    color: white;
+    width: 100%;
+}
+
+.formPanel input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.formPanel  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.successMessage table {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.successMessage th, td {
+    text-align: left;
+    padding: 8px;
+}
+.successMessage th {
+    background-color: #f2f2f2;
+}
+.successMessage tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.total {
+    font-weight: bold;
+    font-size: 1.2em;
+}

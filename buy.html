@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS keyboard</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="buy.js"></script>
+</head>
+
+<body>
+    <div class="bgfillmain"><!-- </div> class="bgfillmain"> -->
+        <nav>
+            <ul>
+                <li><a href="mainpage.html">Home</a></li>
+                <li><a href="mainpage.html#keyboards">Keyboards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="formPanel">
+            <h1>Purchase Order</h1>
+            <hr>
+            <form id="toBuyform">
+                <div class="splitpanel">
+                    <div>
+                        <table id="keyboardtable" class="keyboardtable">
+                            <thead>
+                                <th>Buy?</th>
+                                <th>Keyboard</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                            </thead>
+                        </table>
+                    </div>
+                    <div>
+
+                        <label for="email">Email Address:</label> <input type="email" id="email"
+                            pattern="[a-zA-Z0-9._%+-]+@(?:[a-zA-Z0-9-]+\.)+(com|edu|org|net)$"
+                            oninvalid="setCustomValidity('Please enter a valid email address with @ and .com, .edu, .org, or .net domain.')"
+                            oninput="setCustomValidity('')" required><br>
+
+
+                        <label for="phone">Phone number:</label> <input type="tel" id="phone" name="phone"
+                            pattern="^(?:\+?\d{1,3})?[ -]?\d{10}$" required>
+                        <br>
+
+                        <label for="credit-card">Credit Card Number:</label>
+                        <input type="text" id="credit-card" name="credit-card"><br><br>
+                        <input type="submit" value="PURCHASE">
+                    </div>
+                </div>
+            </form>
+
+
+            <div id="successMessage" style="display: none;">
+                <label>date of purchase : </label>
+                <label id="purchaseDate"></label><br>
+                <hr>
+                <table id="itemlisttable">
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Total:</td>
+                            <td class="total" id="total">787 Rs</td>
+                        </tr>
+                    </tfoot>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <hr>
+                <p>Thank you for your purchase</p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+
+    <footer id="contact">
+        <ul>
+            <li>By Suhas H M</li>
+            <li>Email: suhashm.btech22@rvu.edu.in</li>
+            <li>media credits: daskeyboard.com, https://pixabay.com</li>
+        </ul>
+    </footer>
+</body>
+
+
+
+</html>

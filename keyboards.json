@@ -1,0 +1,34 @@
+{
+    "keyboards": [
+        {
+            "name": "Das Keyboard 6 Professional",
+            "price": 19.99,
+            "image_url": "https://www.daskeyboard.com/images/das-keyboard-6-professional/6-pro-top-view.jpeg"
+        },
+        {
+            "name": "Das Keyboard MacTiger",
+            "price": 59.99,
+            "image_url": "https://www.daskeyboard.com/images/mactigr/MacTigr-thumb-top.jpeg"
+        },
+        {
+            "name": "Das Keyboard X50Q",
+            "price": 39.99,
+            "image_url": "https://www.daskeyboard.com/images/mechanical-keyboard/x50q-mechanical-keyboard.jpg"
+        },
+        {
+            "name": "Das Keyboard 4 Ultimate",
+            "price": 39.99,
+            "image_url": "https://www.daskeyboard.com/images/mechanical-keyboard/daskeyboard-4-ultimate-front-view.jpg"
+        },
+        {
+            "name": "Das Keyboard 4Q",
+            "price": 39.99,
+            "image_url": "https://www.daskeyboard.com/images/mechanical-keyboard/daskeyboard-4q-front-view.jpg"
+        },
+        {
+            "name": "Das Keyboard 4 Professional",
+            "price": 39.99,
+            "image_url": "https://www.daskeyboard.com/images/mechanical-keyboard/daskeyboard-4-professional-front-view.jpg"
+        }
+    ]
+}
