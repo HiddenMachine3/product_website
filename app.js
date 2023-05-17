@@ -22,7 +22,7 @@ function onRequest(request,response){
     console.log("onRequest method");
 }
 
-http.createServer(onRequest).listen(4000);
+http.createServer(onRequest).listen(8080);
 console.log("Server created");
 //lsof -i:4000
 //4000-4020. 3000-3020 are free... 7050-8000..9000-9020.. are free
