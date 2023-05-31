@@ -15,8 +15,26 @@ function onRequest(request,response){
                 response.write("File not found");
             }else{
                 response.write(data);
-                response.end();
+                
             }
+            response.end();
+        });
+    } else if (request.url == '/style.css') {
+        response.write(fs.readFileSync('./style.css'));
+        response.end();
+    } else {
+        thing ='.'+request.url ;//== '/newspaperfootage.mp4'
+
+        fs.readFile(thing, function onReadComplete(error,data){
+            console.log("onRead")
+            if(error){
+                console.log(error);
+                response.writeHead(404);
+                response.write("File not found");
+            }else{
+                response.write(data);
+            }
+            response.end();
         });
     }
     console.log("onRequest method");
