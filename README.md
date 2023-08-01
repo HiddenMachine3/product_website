@@ -1,5 +1,5 @@
-# product_website
+# Keyboard Sales Website
 
-style.css is shared by both html files
-MKN_Assignment#1(HTML,CSS) : is just mainpage.html
-MKN_Assignment#2 : is just buy.html and buy.js
+A Simple Website to showcase keyboards
+
+Run using "node app.js" while inside the project directory
